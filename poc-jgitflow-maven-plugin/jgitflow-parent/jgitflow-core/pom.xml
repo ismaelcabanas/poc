@@ -23,6 +23,7 @@
             <version>1.0-m5.1</version>
             <configuration>
                 <!-- see goals wiki page for configuration options -->
+                <allowSnapshots>true</allowSnapshots>
             </configuration>
         </plugin>
     </plugins>
