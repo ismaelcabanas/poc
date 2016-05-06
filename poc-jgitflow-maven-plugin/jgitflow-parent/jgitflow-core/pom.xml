@@ -14,20 +14,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>external.atlassian.jgitflow</groupId>
-            <artifactId>jgitflow-maven-plugin</artifactId>
-            <version>1.0-m4</version>
-            <configuration>
-                <!-- see goals wiki page for configuration options!!-->
-                <allowSnapshots>true</allowSnapshots>
-		<noDeploy>true</noDeploy>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
