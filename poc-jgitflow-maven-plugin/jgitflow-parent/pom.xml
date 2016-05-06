@@ -3,10 +3,24 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cabanas.garcia.ismael.jgitflow</groupId>
   <artifactId>jgitflow-parent</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>pom</packaging>
   <name>jgitflow-parent</name>
   <modules>
     <module>jgitflow-core</module>
   </modules>
+   <build>
+    <plugins>
+        <plugin>
+            <groupId>external.atlassian.jgitflow</groupId>
+            <artifactId>jgitflow-maven-plugin</artifactId>
+            <version>1.0-m4</version>
+            <configuration>
+                <!-- see goals wiki page for configuration options!!-->
+                <allowSnapshots>true</allowSnapshots>
+		<noDeploy>true</noDeploy>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
