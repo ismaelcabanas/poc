@@ -8,7 +8,7 @@
   </parent>
   <groupId>cabanas.garcia.ismael.jgitflow</groupId>
   <artifactId>jgitflow-core</artifactId>
-  <version>1.3</version>
+  <version>1.4</version>
   <name>jgitflow-core</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -21,7 +21,7 @@
             <artifactId>jgitflow-maven-plugin</artifactId>
             <version>1.0-m4</version>
             <configuration>
-                <!-- see goals wiki page for configuration options -->
+                <!-- see goals wiki page for configuration options!!-->
                 <allowSnapshots>true</allowSnapshots>
 		<noDeploy>true</noDeploy>
             </configuration>
