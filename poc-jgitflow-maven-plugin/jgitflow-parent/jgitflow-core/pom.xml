@@ -23,6 +23,7 @@
             <configuration>
                 <!-- see goals wiki page for configuration options -->
                 <allowSnapshots>true</allowSnapshots>
+		<noDeploy>true</noDeploy>
             </configuration>
         </plugin>
     </plugins>
