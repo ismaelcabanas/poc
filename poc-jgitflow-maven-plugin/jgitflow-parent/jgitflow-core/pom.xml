@@ -8,7 +8,7 @@
   </parent>
   <groupId>cabanas.garcia.ismael.jgitflow</groupId>
   <artifactId>jgitflow-core</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.5-SNAPSHOT</version>
   <name>jgitflow-core</name>
   <url>http://maven.apache.org</url>
   <properties>
