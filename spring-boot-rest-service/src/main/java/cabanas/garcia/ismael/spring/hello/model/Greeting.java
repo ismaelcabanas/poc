@@ -1,4 +1,4 @@
-package cabanas.garcia.ismael.spring.hello;
+package cabanas.garcia.ismael.spring.hello.model;
 
 public class Greeting {
 
