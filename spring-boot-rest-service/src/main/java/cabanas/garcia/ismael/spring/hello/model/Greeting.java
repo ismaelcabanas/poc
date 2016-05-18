@@ -1,5 +1,11 @@
 package cabanas.garcia.ismael.spring.hello.model;
 
+/**
+ * POJO represents a greeting.
+ * 
+ * @author Ismael
+ *
+ */
 public class Greeting {
 
 	private final long id;
